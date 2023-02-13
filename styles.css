@@ -1,5 +1,11 @@
 body {
     margin: 0;
-    background: lightcoral;
+    background: background: linear-gradient(to right, #00b4db, #0083b0);;
     text-align: center;
+}
+
+img {
+    max-width: 50%;
+    min-width: 25%;
+    height: auto;
 }
