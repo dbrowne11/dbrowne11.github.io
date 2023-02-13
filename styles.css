@@ -1,4 +1,4 @@
- body {
+  body {
         background: linear-gradient(to bottom, #e6e6e6, #add8e6);
         height: 100vh;
         display: flex;
@@ -29,8 +29,7 @@
       main {
         margin-top: 50px;
         display: flex;
-        flex-direction: column;
-        align-items: center;
+        flex-wrap: wrap;
         width: 80%;
         margin: 0 auto;
       }
@@ -41,8 +40,11 @@
       }
       section {
         margin-top: 50px;
-        width: 100%;
+        width: 30%;
         text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
       }
       h2 {
         font-size: 2em;
