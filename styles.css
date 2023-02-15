@@ -50,3 +50,23 @@ body {
         font-size: 1.2em;
         margin: 0;
       }
+
+     .image-grid {
+       display: grid;
+       grid-template-columns: repeat(2, 1fr);
+       grid-gap: 20px;
+     }
+
+     .image-grid a {
+       display: block;
+       text-align: center;
+     }
+
+     .image-grid img {
+       max-width: 100%;
+       height: auto;
+     }
+
+     .image-grid p {
+       margin: 10px 0;
+     }
